@@ -1,0 +1,27 @@
+Algoritmo "Pagamento"
+// Disciplina   :[Portugol, Lógica de Programação]
+// Professor   : Nelio Alves
+// Descrição   : Criado Para Calcular o Pagamento de um funcionario
+// Autor(a)    : Vitor Batista
+// Data atual  : 26/02/2025
+Var
+    nome : caracter
+    salario: real
+    horas : real
+    resultado : real
+
+
+Inicio
+      escreval("Nome")
+      leia(nome)
+      escreval("Valor por hora")
+      leia(salario)
+      escreval("Horas Trabalhadas")
+      leia (horas)
+      
+      resultado <- salario * horas
+      
+      escreval("O pagamento para ", nome, " deve ser ", resultado:7:2)
+
+
+Fimalgoritmo
